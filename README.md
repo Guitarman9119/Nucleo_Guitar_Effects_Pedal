@@ -1,5 +1,5 @@
-NucleoGuitarEffectsPedal
-Guitar Effects based on Nucleo STM32F303
+# NucleoGuitarEffectsPedal
+## Guitar Effects based on Nucleo STM32F303
 
 Playing an instrument like the electric guitar requires a lot of time to practice and improve yourself. Certain styles of playing requires specific effects. To achieve this guitarists use effect units which are commonly known as effects pedals. An effects pedal is an electronic device that uses the output signal from the guitar pick-up as input and changes the signal by applying signal processing techniques to create an altered output signal.
 
