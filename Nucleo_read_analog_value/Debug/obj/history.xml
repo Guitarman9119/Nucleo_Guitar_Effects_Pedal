@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-g++ noversion nomachine -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -g2 -Wall -Os -fno-common -fmessage-length=0 -Wall -fno-strict-aliasing -fno-rtti -fno-exceptions -ffunction-sections -fdata-sections -std=gnu++98 -c -DTARGET_NUCLEO_F334R8 -DTARGET_M4 -DTARGET_CORTEX_M -DTARGET_STM -DTARGET_STM32F3 -DTARGET_STM32F334R8 -DTOOLCHAIN_GCC_ARM -DTOOLCHAIN_GCC -D__CORTEX_M4 -DARM_MATH_CM4 -D__FPU_PRESENT=1 -DMBED_BUILD_TIMESTAMP=1436170351.36 -D__MBED__=1 -DTARGET_FF_ARDUINO -DTARGET_FF_MORPHO -I..\..\..\..\..\..\..\Dropbox\Finale jaar projek -I..\..\..\..\..\..\..\Dropbox\Finale jaar projek\Nucleo_read_analog_value_coide_nucleo_f334r8\Nucleo_read_analog_value\mbed -I..\..\..\..\..\..\..\Dropbox\Finale jaar projek\Nucleo_read_analog_value_coide_nucleo_f334r8 -I..\..\..\..\..\..\..\Dropbox\Finale jaar projek\Nucleo_read_analog_value_coide_nucleo_f334r8\Nucleo_read_analog_value\mbed\TARGET_NUCLEO_F334R8\TOOLCHAIN_GCC_ARM -I..\..\..\..\..\..\..\Dropbox\Finale jaar projek\Nucleo_read_analog_value_coide_nucleo_f334r8\Nucleo_read_analog_value\mbed\TARGET_NUCLEO_F334R8 -I..\..\..\..\..\..\..\Dropbox\Finale jaar projek\Nucleo_read_analog_value_coide_nucleo_f334r8\Nucleo_read_analog_value\mbed\TARGET_NUCLEO_F334R8\TARGET_STM\TARGET_STM32F3 -I..\..\..\..\..\..\..\Dropbox\Finale jaar projek\Nucleo_read_analog_value_coide_nucleo_f334r8\Nucleo_read_analog_value\mbed\TARGET_NUCLEO_F334R8\TARGET_STM -I..\..\..\..\..\..\..\Dropbox\Finale jaar projek\Nucleo_read_analog_value_coide_nucleo_f334r8\Nucleo_read_analog_value -I..\..\..\..\..\..\..\Dropbox\Finale jaar projek\Nucleo_read_analog_value_coide_nucleo_f334r8\Nucleo_read_analog_value\mbed\TARGET_NUCLEO_F334R8\TARGET_STM\TARGET_STM32F3\TARGET_NUCLEO_F334R8">
+      <target file="effects.o" lastModified="1507a34c2c1">
+         <source file="..\..\..\effects.cpp" lastModified="15071d3f04f"/>
+      </target>
+      <target file="delay_effect.o" lastModified="1507a34c33a">
+         <source file="..\..\..\delay_effect.cpp" lastModified="1506257fb9c"/>
+      </target>
+      <target file="notch.o" lastModified="1507a34ccac">
+         <source file="..\..\..\notch.cpp" lastModified="14ee51ab690"/>
+      </target>
+      <target file="Phaser.o" lastModified="1507a34c965">
+         <source file="..\..\..\Phaser.cpp" lastModified="14ee51b5e88"/>
+      </target>
+      <target file="NOKIA_5110.o" lastModified="1507a34cbbe">
+         <source file="..\..\..\NOKIA_5110.cpp" lastModified="14e8cada0c1"/>
+      </target>
+      <target file="tremolo.o" lastModified="1507a34c8e1">
+         <source file="..\..\..\tremolo.cpp" lastModified="14ee519a908"/>
+      </target>
+      <target file="main.o" lastModified="1507a544d3a">
+         <source file="..\..\..\main.cpp" lastModified="1507a54449c"/>
+      </target>
+      <target file="flanger.o" lastModified="1507a34cc37">
+         <source file="..\..\..\flanger.cpp" lastModified="14ee4be4e50"/>
+      </target>
+      <target file="autowah2.o" lastModified="1507a34c78b">
+         <source file="..\..\..\autowah2.cpp" lastModified="14fd57f1680"/>
+      </target>
+      <target file="delay.o" lastModified="1507a34c181">
+         <source file="..\..\..\delay.cpp" lastModified="150624577b9"/>
+      </target>
+      <target file="autowah.o" lastModified="1507a34cd13">
+         <source file="..\..\..\autowah.cpp" lastModified="14ee52a0c58"/>
+      </target>
+   </processor>
+</history>

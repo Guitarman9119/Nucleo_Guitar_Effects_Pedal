@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window>
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar/>
+<page aggregateWorkingSetId="Aggregate for window 1436178263616" focus="true" label="Workspace - CooCox CoBuilder">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="AnalogIn.h" partName="AnalogIn.h" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/AnalogIn.h" title="AnalogIn.h" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/AnalogIn.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/headers/mbed/AnalogIn.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2587" selectionTopPixel="1077"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f3xx_hal_adc.h" partName="stm32f3xx_hal_adc.h" path="C:/Users/Guitarman/Desktop/arm/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_adc.h" title="stm32f3xx_hal_adc.h" tooltip="C:/Users/Guitarman/Desktop/arm/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_adc.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_adc.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4635" selectionTopPixel="1072"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f3xx_hal_spi.h" partName="stm32f3xx_hal_spi.h" path="C:/Users/Guitarman/Desktop/arm/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_spi.h" title="stm32f3xx_hal_spi.h" tooltip="C:/Users/Guitarman/Desktop/arm/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_spi.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_spi.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="8316"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f3xx_hal_i2c_ex.h" partName="stm32f3xx_hal_i2c_ex.h" path="C:/Users/Guitarman/Desktop/arm/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_i2c_ex.h" title="stm32f3xx_hal_i2c_ex.h" tooltip="C:/Users/Guitarman/Desktop/arm/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_i2c_ex.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_i2c_ex.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1844"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f3xx_hal_dac_ex.h" partName="stm32f3xx_hal_dac_ex.h" path="C:/Users/Guitarman/Desktop/arm/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_dac_ex.h" title="stm32f3xx_hal_dac_ex.h" tooltip="C:/Users/Guitarman/Desktop/arm/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_dac_ex.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_dac_ex.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="19609" selectionTopPixel="4861"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="platform.h" partName="platform.h" path="C:/Users/Guitarman/Desktop/arm/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/platform.h" title="platform.h" tooltip="C:/Users/Guitarman/Desktop/arm/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/platform.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/headers/mbed/platform.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="807" selectionTopPixel="187"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="effects.cpp" partName="effects.cpp" title="effects.cpp" tooltip="C:\Users\Guitarman\Dropbox\Finale jaar projek\Nucleo_read_analog_value_coide_nucleo_f334r8\Nucleo_read_analog_value\effects.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/Guitarman/Dropbox/Finale%20jaar%20projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/effects.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="effects.h" partName="effects.h" path="C:/Users/1gn1t0r/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/effects.h" title="effects.h" tooltip="C:/Users/1gn1t0r/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/effects.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/effects.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="33" selectionOffset="528" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="NOKIA_5110.h" partName="NOKIA_5110.h" path="C:/Users/1gn1t0r/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/NOKIA_5110.h" title="NOKIA_5110.h" tooltip="C:/Users/1gn1t0r/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/NOKIA_5110.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/NOKIA_5110.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="3498" selectionTopPixel="1470"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="NOKIA_5110.cpp" partName="NOKIA_5110.cpp" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/NOKIA_5110.cpp" title="NOKIA_5110.cpp" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/NOKIA_5110.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/NOKIA_5110.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4544" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="RawSerial.h" partName="RawSerial.h" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/RawSerial.h" title="RawSerial.h" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/RawSerial.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/headers/mbed/RawSerial.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="684" selectionTopPixel="150"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="flanger.cpp" partName="flanger.cpp" title="flanger.cpp" tooltip="C:\Users\Guitarman\Dropbox\Finale jaar projek\Nucleo_read_analog_value_coide_nucleo_f334r8\Nucleo_read_analog_value\flanger.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/Guitarman/Dropbox/Finale%20jaar%20projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/flanger.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="notch.cpp" partName="notch.cpp" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/notch.cpp" title="notch.cpp" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/notch.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/notch.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1526" selectionTopPixel="489"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Phaser.cpp" partName="Phaser.cpp" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/Phaser.cpp" title="Phaser.cpp" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/Phaser.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/Phaser.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="840"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="controller.cpp" partName="controller.cpp" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/controller.cpp" title="controller.cpp" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/controller.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/controller.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="237" selectionTopPixel="68"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="controller.h" partName="controller.h" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/controller.h" title="controller.h" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/controller.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/controller.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="flanger.h" partName="flanger.h" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/flanger.h" title="flanger.h" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/flanger.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/flanger.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="flanger.cpp" partName="flanger.cpp" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/flanger.cpp" title="flanger.cpp" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/flanger.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/flanger.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1518" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="autowah2.cpp" partName="autowah2.cpp" path="C:/Users/1gn1t0r/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/autowah2.cpp" title="autowah2.cpp" tooltip="C:/Users/1gn1t0r/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/autowah2.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/autowah2.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1461" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="pwmout_api.h" partName="pwmout_api.h" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/pwmout_api.h" title="pwmout_api.h" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/pwmout_api.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/headers/mbed/pwmout_api.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="630" selectionTopPixel="501"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f3xx_hal_pwr.h" partName="stm32f3xx_hal_pwr.h" path="C:/Users/1gn1t0r/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pwr.h" title="stm32f3xx_hal_pwr.h" tooltip="C:/Users/1gn1t0r/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pwr.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pwr.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2923" selectionTopPixel="930"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="delay.cpp" partName="delay.cpp" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/delay.cpp" title="delay.cpp" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/delay.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/delay.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="26" selectionOffset="3357" selectionTopPixel="2097"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="autowah2.h" partName="autowah2.h" path="C:/Users/1gn1t0r/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/autowah2.h" title="autowah2.h" tooltip="C:/Users/1gn1t0r/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/autowah2.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/autowah2.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="42" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="delay_effect.h" partName="delay_effect.h" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/delay_effect.h" title="delay_effect.h" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/delay_effect.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/delay_effect.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="83" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="notch.h" partName="notch.h" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/notch.h" title="notch.h" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/notch.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/notch.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Phaser.h" partName="Phaser.h" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/Phaser.h" title="Phaser.h" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/Phaser.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/Phaser.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tremolo2.h" partName="tremolo2.h" path="C:/Users/1gn1t0r/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/tremolo2.h" title="tremolo2.h" tooltip="C:/Users/1gn1t0r/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/tremolo2.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/tremolo2.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="183" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.cpp" partName="main.cpp" path="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/main.cpp" title="main.cpp" tooltip="C:/Users/Guitarman/Dropbox/Finale jaar projek/Nucleo_read_analog_value_coide_nucleo_f334r8/Nucleo_read_analog_value/main.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_read_analog_value/sources/main.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1608" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
+<viewState>
+<ExpressionKeySet ExpKeys="adc_sample,yout,yout,effect_buffer,avg,fx_avg,modified_sample,"/>
+</viewState>
+</view>
+<view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
+<expanded>
+<element path="/Nucleo_read_analog_value"/>
+<element path="/Nucleo_read_analog_value/sources"/>
+</expanded>
+<selection>
+<element path="/Nucleo_read_analog_value/sources/main.cpp"/>
+</selection>
+</viewState>
+</view>
+<view id="org.coocox.codebugger.trace.ui.traceview" partName="Semihosting">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (1 item)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
+<alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.ShowDisassemblyAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showExpressionsAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showDebugAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showConsoleAction"/>
+<hide_menu_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
+<hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
+<view id="org.coocox.builder.ui.views.ProjectView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1ea717b">
+<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
+<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<page content="org.coocox.component.ui.view.ComponentView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7498122" ratioLeft="998" ratioRight="333" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1ea717b">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1fa83e9" ratio="0.69952303" ratioLeft="440" ratioRight="189" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1ea717b">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.2804878" ratioLeft="184" ratioRight="472" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1ea717b"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@c06512" ratio="0.7063712" ratioLeft="255" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
+<page content="org.coocox.coassistant.view.CoAssistantView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.coocox.codebugger.configuration.ui.Perspective" id="org.coocox.codebugger.configuration.perspective" label="CoDebugger"/>
+<alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<hide_menu_item_id id="org.coocox.builder.ui.newFolder"/>
+<hide_menu_item_id id="org.coocox.welcome.ui.action.repository"/>
+<hide_menu_item_id id="org.eclipse.ui.file.save"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
+<hide_menu_item_id id="org.coocox.builder.ui.rebuild"/>
+<hide_menu_item_id id="org.eclipse.ui.file.saveAll"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openFile"/>
+<hide_menu_item_id id="org.eclipse.ui.file.saveAs"/>
+<hide_menu_item_id id="org.coocox.builder.rcp.projectMenu"/>
+<hide_menu_item_id id="org.coocox.builder.rcp.flashMenu"/>
+<hide_menu_item_id id="org.coocox.builder.ui.debug"/>
+<hide_menu_item_id id="org.coocox.builder.ui.showHelpViewAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.newFile"/>
+<hide_menu_item_id id="org.coocox.builder.ui.actions.ConfigurationAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
+<hide_menu_item_id id="org.coocox.builder.ui.build"/>
+<hide_menu_item_id id="org.coocox.welcome.ui.action.welcome"/>
+<hide_menu_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.actions.TargetManageAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.newProject"/>
+<hide_toolbar_item_id id="org.coocox.welcome.ui.action.repository"/>
+<hide_toolbar_item_id id="org.eclipse.ui.file.save"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.rebuild"/>
+<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideFlashEraseAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.debug"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.newFile"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.actions.ConfigurationAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.build"/>
+<hide_toolbar_item_id id="org.coocox.welcome.ui.action.welcome"/>
+<hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
+<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.coocox.codebugger.trace.ui.traceview"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
+<view id="org.coocox.builder.ui.views.ProjectView"/>
+<fastViewBars/>
+<viewLayoutRec closeable="false" id="org.eclipse.debug.ui.DebugView"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@18ef99e">
+<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
+<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="999" ratioRight="333" relationship="2" relative="org.eclipse.ui.internal.ViewStack@18ef99e">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1ff5168" ratio="0.69920844" ratioLeft="530" ratioRight="228" relationship="4" relative="org.eclipse.ui.internal.ViewStack@18ef99e">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@7606f1" ratio="0.5" ratioLeft="666" ratioRight="666" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1ff5168">
+<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">
+<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
+<page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
+<page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1124192" ratio="0.75" ratioLeft="999" ratioRight="333" relationship="2" relative="org.eclipse.ui.internal.ViewStack@18ef99e">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<page content="org.coocox.coassistant.view.CoAssistantView_debug" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.2992993" ratioLeft="299" ratioRight="700" relationship="2" relative="org.eclipse.ui.internal.ViewStack@18ef99e"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Nucleo_read_analog_value/sources/main.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Nucleo_read_analog_value/sources/effects.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Nucleo_read_analog_value/sources/effects.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Nucleo_read_analog_value/sources/effects.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Nucleo_read_analog_value/sources/tremolo.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Nucleo_read_analog_value/sources/tremolo2.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Nucleo_read_analog_value/sources/main.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Nucleo_read_analog_value/sources/effects.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Nucleo_read_analog_value/sources/delay_effect.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Nucleo_read_analog_value/sources/autowah.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Nucleo_read_analog_value/sources/autowah.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Nucleo_read_analog_value/sources/delay.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Nucleo_read_analog_value/headers/mbed/AnalogIn.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Nucleo_read_analog_value/sources/main.cpp"/>
+</editors>
+<item historyLabel="main.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="effects.cpp" index="1">
+<position info="not_deleted" x="2460" y="0"/>
+</item>
+<item historyLabel="effects.cpp" index="1">
+<position info="not_deleted" x="1858" y="9"/>
+</item>
+<item historyLabel="main.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="effects.cpp" index="1">
+<position info="not_deleted" x="1858" y="9"/>
+</item>
+<item historyLabel="main.cpp" index="0">
+<position info="not_deleted" x="3979" y="0"/>
+</item>
+<item historyLabel="effects.cpp" index="1">
+<position info="not_deleted" x="1858" y="9"/>
+</item>
+<item historyLabel="effects.cpp" index="1">
+<position info="not_deleted" x="1168" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="0">
+<position info="not_deleted" x="3979" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="0">
+<position info="not_deleted" x="5268" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="main.cpp" index="0">
+<position info="not_deleted" x="4874" y="0"/>
+</item>
+<item historyLabel="effects.h" index="2">
+<position info="not_deleted" x="106" y="0"/>
+</item>
+<item historyLabel="effects.cpp" index="1">
+<position info="not_deleted" x="3718" y="32"/>
+</item>
+<item historyLabel="effects.h" index="2">
+<position info="not_deleted" x="528" y="33"/>
+</item>
+<item historyLabel="effects.cpp" index="1">
+<position info="not_deleted" x="3718" y="32"/>
+</item>
+<item historyLabel="effects.cpp" index="1">
+<position info="not_deleted" x="3800" y="0"/>
+</item>
+<item historyLabel="effects.cpp" index="1">
+<position info="not_deleted" x="3818" y="0"/>
+</item>
+<item historyLabel="effects.cpp" index="1">
+<position info="not_deleted" x="1019" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="0">
+<position info="not_deleted" x="4929" y="0"/>
+</item>
+<item historyLabel="effects.cpp" index="3">
+<position info="not_deleted" x="3360" y="0"/>
+</item>
+<item historyLabel="tremolo.cpp" index="4">
+<position info="not_deleted" x="184" y="5"/>
+</item>
+<item historyLabel="tremolo2.h" index="5">
+<position info="not_deleted" x="183" y="0"/>
+</item>
+<item historyLabel="tremolo.cpp" index="4">
+<position info="not_deleted" x="677" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="6">
+<position info="not_deleted" x="3598" y="0"/>
+</item>
+<item historyLabel="effects.cpp" index="7">
+<position info="not_deleted" x="1406" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="6">
+<position info="not_deleted" x="365" y="0"/>
+</item>
+<item historyLabel="effects.cpp" index="7">
+<position info="not_deleted" x="1406" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="6">
+<position/>
+</item>
+<item historyLabel="delay_effect.cpp" index="8"/>
+<item historyLabel="main.cpp" index="6">
+<position/>
+</item>
+<item historyLabel="delay_effect.cpp" index="8"/>
+<item historyLabel="autowah.cpp" index="9"/>
+<item historyLabel="autowah.h" index="10"/>
+<item historyLabel="delay.h" index="11"/>
+<item historyLabel="AnalogIn.h" index="12">
+<position info="not_deleted" x="2587" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="13">
+<position info="not_deleted" x="1299" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="13">
+<position info="not_deleted" x="2624" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="13">
+<position info="not_deleted" x="1986" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="13">
+<position info="not_deleted" x="1299" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="13">
+<position info="not_deleted" x="1986" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="13">
+<position info="not_deleted" x="2555" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="13">
+<position info="not_deleted" x="2573" y="15"/>
+</item>
+<item historyLabel="main.cpp" index="13">
+<position info="not_deleted" x="2522" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="13">
+<position info="not_deleted" x="1299" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="13">
+<position/>
+</item>
+<item historyLabel="main.cpp" index="13">
+<position info="not_deleted" x="1299" y="0"/>
+</item>
+<item active="true" historyLabel="main.cpp" index="13">
+<position info="not_deleted" x="2518" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+</window>
+<mruList>
+<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage" name="" tooltip="">
+<persistable>
+<org.coocox.welcome.ui.WelcomePage/>
+</persistable>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.cpp" tooltip="Nucleo_read_analog_value/sources/main.cpp">
+<persistable path="/Nucleo_read_analog_value/sources/main.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Phaser.h" tooltip="Nucleo_read_analog_value/sources/Phaser.h">
+<persistable path="/Nucleo_read_analog_value/sources/Phaser.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="notch.h" tooltip="Nucleo_read_analog_value/sources/notch.h">
+<persistable path="/Nucleo_read_analog_value/sources/notch.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="delay.h" tooltip="Nucleo_read_analog_value/sources/delay.h">
+<persistable path="/Nucleo_read_analog_value/sources/delay.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="autowah.h" tooltip="Nucleo_read_analog_value/sources/autowah.h">
+<persistable path="/Nucleo_read_analog_value/sources/autowah.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="autowah.cpp" tooltip="Nucleo_read_analog_value/sources/autowah.cpp">
+<persistable path="/Nucleo_read_analog_value/sources/autowah.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="delay_effect.cpp" tooltip="Nucleo_read_analog_value/sources/delay_effect.cpp">
+<persistable path="/Nucleo_read_analog_value/sources/delay_effect.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="delay_effect.h" tooltip="Nucleo_read_analog_value/sources/delay_effect.h">
+<persistable path="/Nucleo_read_analog_value/sources/delay_effect.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f3xx_hal_pwr.h" tooltip="Nucleo_read_analog_value/headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pwr.h">
+<persistable path="/Nucleo_read_analog_value/headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pwr.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="pwmout_api.h" tooltip="Nucleo_read_analog_value/headers/mbed/pwmout_api.h">
+<persistable path="/Nucleo_read_analog_value/headers/mbed/pwmout_api.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="PwmOut.h" tooltip="Nucleo_read_analog_value/headers/mbed/PwmOut.h">
+<persistable path="/Nucleo_read_analog_value/headers/mbed/PwmOut.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="autowah2.cpp" tooltip="Nucleo_read_analog_value/sources/autowah2.cpp">
+<persistable path="/Nucleo_read_analog_value/sources/autowah2.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="flanger.cpp" tooltip="Nucleo_read_analog_value/sources/flanger.cpp">
+<persistable path="/Nucleo_read_analog_value/sources/flanger.cpp"/>
+</file>
+</mruList>
+</workbench>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 2.0.3" name="Nucleo_read_analog_value">
+  <Target name="Nucleo_read_analog_value" isCurrent="1">
+    <Device manufacturerId="9" manufacturerName="ST" chipId="238" chipName="STM32F303RB" boardId="" boardName="" boardUrl="" coreId="" coreName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="4"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value="-fno-common; -fmessage-length=0; -Wall; -fno-strict-aliasing; -fno-rtti; -fno-exceptions; -ffunction-sections; -fdata-sections; -std=gnu++98"/>
+        <Option name="FPU" value="1"/>
+        <Option name="SupportCPlusplus" value="1"/>
+        <Option name="DEBUG" value="2"/>
+        <Option name="WARNING" value="1"/>
+        <Includepaths>
+          <Includepath path="."/>
+          <Includepath path="mbed"/>
+          <Includepath path="mbed/TARGET_NUCLEO_F334R8"/>
+          <Includepath path="mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM"/>
+          <Includepath path="mbed/TARGET_NUCLEO_F334R8/TARGET_STM"/>
+          <Includepath path="mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3"/>
+          <Includepath path="mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F334R8"/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="TARGET_NUCLEO_F334R8"/>
+          <Define name="TARGET_M4"/>
+          <Define name="TARGET_CORTEX_M"/>
+          <Define name="TARGET_STM"/>
+          <Define name="TARGET_STM32F3"/>
+          <Define name="TARGET_STM32F334R8"/>
+          <Define name="TOOLCHAIN_GCC_ARM"/>
+          <Define name="TOOLCHAIN_GCC"/>
+          <Define name="__CORTEX_M4"/>
+          <Define name="ARM_MATH_CM4"/>
+          <Define name="__FPU_PRESENT=1"/>
+          <Define name="MBED_BUILD_TIMESTAMP=1436170351.36"/>
+          <Define name="__MBED__=1"/>
+          <Define name="TARGET_FF_ARDUINO"/>
+          <Define name="TARGET_FF_MORPHO"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="1"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="0"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <Option name="nostartfiles" value="0"/>
+        <Option name="UserEditLinker" value="-Wl,--wrap,main; --specs=nano.specs; -u _printf_float; -u _scanf_float;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_nand.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_smartcard.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_ll_fmc.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_tim.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_cortex.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_dac.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_i2s_ex.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/mbed_overrides.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_rcc_ex.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_rtc.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/startup_stm32f334x8.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_wwdg.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/system_stm32f3xx.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_crc.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_pccard.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_smbus.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_pcd.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_spi.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_cec.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_flash.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_rcc.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_usart.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_i2c.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/board.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_gpio.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_uart_ex.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_crc_ex.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_i2s.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_i2c_ex.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_dac_ex.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_adc.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/cmsis_nvic.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/hal_tick.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_uart.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_pcd_ex.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_comp.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_tim_ex.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_opamp_ex.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_sram.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/retarget.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_irda.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_smartcard_ex.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_sdadc.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_rtc_ex.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_hrtim.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_iwdg.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_opamp.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_pwr.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_dma.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_flash_ex.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_nor.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_tsc.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_pwr_ex.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_can.o;          ${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/stm32f3xx_hal_adc_ex.o;  -L${project.path}/mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM; "/>
+        <LinkedLibraries>
+          <Libset dir="" libs="mbed"/>
+          <Libset dir="" libs="stdc++"/>
+          <Libset dir="" libs="supc++"/>
+          <Libset dir="" libs="m"/>
+          <Libset dir="" libs="gcc"/>
+          <Libset dir="" libs="c"/>
+          <Libset dir="" libs="nosys"/>
+        </LinkedLibraries>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00010000" startValue="0x08000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00002E78" startValue="0x20000188"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="0x00001000" startValue="0x10000000"/>
+        </MemoryAreas>
+        <LocateLinkFile path="mbed/TARGET_NUCLEO_F334R8/TOOLCHAIN_GCC_ARM/STM32F334x8.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="Nucleo_read_analog_value"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ST-Link"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="C:\Users\Guitarman\AppData\Roaming\CooCox\CoIDE\config\flash\CooCox-Flash\CoIDE_STM32F3xx_128K\STM32F3xx_128.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./"/>
+  <LocalComponents/>
+  <Files>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_comp_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_comp_ex.h" type="1"/>
+    <File name="headers/mbed/sleep_api.h" path="mbed/sleep_api.h" type="1"/>
+    <File name="sources/Phaser.h" path="Phaser.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_adc.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_adc.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_sdadc.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_sdadc.h" type="1"/>
+    <File name="headers/mbed/InterruptIn.h" path="mbed/InterruptIn.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_cec.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_cec.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pwr.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pwr.h" type="1"/>
+    <File name="headers/mbed/serial_api.h" path="mbed/serial_api.h" type="1"/>
+    <File name="sources/tremolo2.h" path="tremolo2.h" type="1"/>
+    <File name="headers/mbed/spi_api.h" path="mbed/spi_api.h" type="1"/>
+    <File name="headers/mbed/FilePath.h" path="mbed/FilePath.h" type="1"/>
+    <File name="headers/mbed/DigitalIn.h" path="mbed/DigitalIn.h" type="1"/>
+    <File name="sources/Phaser.cpp" path="Phaser.cpp" type="1"/>
+    <File name="sources/flanger.cpp" path="flanger.cpp" type="1"/>
+    <File name="headers/mbed/CAN.h" path="mbed/CAN.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8" path="" type="2"/>
+    <File name="headers" path="" type="2"/>
+    <File name="headers/mbed/pinmap.h" path="mbed/pinmap.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_irda_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_irda_ex.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/gpio_object.h" path="mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/gpio_object.h" type="1"/>
+    <File name="headers/mbed/rtc_api.h" path="mbed/rtc_api.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_smbus.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_smbus.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_gpio_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_gpio_ex.h" type="1"/>
+    <File name="sources/flanger.h" path="flanger.h" type="1"/>
+    <File name="headers/mbed/SerialBase.h" path="mbed/SerialBase.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_hrtim.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_hrtim.h" type="1"/>
+    <File name="headers/mbed/ethernet_api.h" path="mbed/ethernet_api.h" type="1"/>
+    <File name="headers/mbed/mbed_assert.h" path="mbed/mbed_assert.h" type="1"/>
+    <File name="sources/tremolo.cpp" path="tremolo.cpp" type="1"/>
+    <File name="headers/mbed/PwmOut.h" path="mbed/PwmOut.h" type="1"/>
+    <File name="headers/mbed/Ethernet.h" path="mbed/Ethernet.h" type="1"/>
+    <File name="headers/mbed/FileSystemLike.h" path="mbed/FileSystemLike.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/hal_tick.h" path="mbed/TARGET_NUCLEO_F334R8/hal_tick.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pcd.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pcd.h" type="1"/>
+    <File name="headers/mbed/I2C.h" path="mbed/I2C.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pwr_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pwr_ex.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_tim.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_tim.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/core_cm4_simd.h" path="mbed/TARGET_NUCLEO_F334R8/core_cm4_simd.h" type="1"/>
+    <File name="headers/mbed/analogout_api.h" path="mbed/analogout_api.h" type="1"/>
+    <File name="headers/mbed/Serial.h" path="mbed/Serial.h" type="1"/>
+    <File name="headers/mbed/DirHandle.h" path="mbed/DirHandle.h" type="1"/>
+    <File name="headers/mbed/mbed_debug.h" path="mbed/mbed_debug.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_rcc_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_rcc_ex.h" type="1"/>
+    <File name="headers/mbed/platform.h" path="mbed/platform.h" type="1"/>
+    <File name="headers/mbed/Stream.h" path="mbed/Stream.h" type="1"/>
+    <File name="sources/effects.cpp" path="effects.cpp" type="1"/>
+    <File name="sources/delay_effect.h" path="delay_effect.h" type="1"/>
+    <File name="headers/mbed/PortIn.h" path="mbed/PortIn.h" type="1"/>
+    <File name="headers/mbed/AnalogIn.h" path="mbed/AnalogIn.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pcd_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pcd_ex.h" type="1"/>
+    <File name="headers/mbed/LowPowerTimer.h" path="mbed/LowPowerTimer.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_opamp.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_opamp.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_smartcard.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_smartcard.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_irda.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_irda.h" type="1"/>
+    <File name="sources/autowah2.h" path="autowah2.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/core_cm4.h" path="mbed/TARGET_NUCLEO_F334R8/core_cm4.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/core_caFunc.h" path="mbed/TARGET_NUCLEO_F334R8/core_caFunc.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_rtc.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_rtc.h" type="1"/>
+    <File name="headers/mbed/dma_api.h" path="mbed/dma_api.h" type="1"/>
+    <File name="headers/mbed/SPISlave.h" path="mbed/SPISlave.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_ll_fmc.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_ll_fmc.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_i2c_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_i2c_ex.h" type="1"/>
+    <File name="headers/mbed/SPI.h" path="mbed/SPI.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/core_caInstr.h" path="mbed/TARGET_NUCLEO_F334R8/core_caInstr.h" type="1"/>
+    <File name="headers/mbed/Timeout.h" path="mbed/Timeout.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_wwdg.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_wwdg.h" type="1"/>
+    <File name="sources/delay.cpp" path="delay.cpp" type="1"/>
+    <File name="headers/mbed/i2c_api.h" path="mbed/i2c_api.h" type="1"/>
+    <File name="headers/mbed/RawSerial.h" path="mbed/RawSerial.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/cmsis.h" path="mbed/TARGET_NUCLEO_F334R8/cmsis.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal.h" type="1"/>
+    <File name="headers/mbed/LocalFileSystem.h" path="mbed/LocalFileSystem.h" type="1"/>
+    <File name="headers/mbed/LowPowerTicker.h" path="mbed/LowPowerTicker.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/TARGET_STM" path="" type="2"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_uart.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_uart.h" type="1"/>
+    <File name="headers/mbed" path="" type="2"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_smartcard_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_smartcard_ex.h" type="1"/>
+    <File name="headers/mbed/DigitalInOut.h" path="mbed/DigitalInOut.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_rtc_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_rtc_ex.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_def.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_def.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_dac_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_dac_ex.h" type="1"/>
+    <File name="headers/mbed/BusInOut.h" path="mbed/BusInOut.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/core_cmFunc.h" path="mbed/TARGET_NUCLEO_F334R8/core_cmFunc.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_sram.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_sram.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_iwdg.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_iwdg.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_flash.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_flash.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_spi.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_spi.h" type="1"/>
+    <File name="headers/mbed/FunctionPointer.h" path="mbed/FunctionPointer.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_nor.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_nor.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_i2c.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_i2c.h" type="1"/>
+    <File name="headers/mbed/BusOut.h" path="mbed/BusOut.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_crc.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_crc.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_comp.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_comp.h" type="1"/>
+    <File name="headers/mbed/Timer.h" path="mbed/Timer.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pccard.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_pccard.h" type="1"/>
+    <File name="headers/mbed/port_api.h" path="mbed/port_api.h" type="1"/>
+    <File name="sources/autowah2.cpp" path="autowah2.cpp" type="1"/>
+    <File name="headers/mbed/semihost_api.h" path="mbed/semihost_api.h" type="1"/>
+    <File name="sources/autowah.h" path="autowah.h" type="1"/>
+    <File name="headers/mbed/TimerEvent.h" path="mbed/TimerEvent.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F334R8/device.h" path="mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F334R8/device.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_conf.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_conf.h" type="1"/>
+    <File name="headers/mbed/FileHandle.h" path="mbed/FileHandle.h" type="1"/>
+    <File name="headers/mbed/toolchain.h" path="mbed/toolchain.h" type="1"/>
+    <File name="headers/mbed/InterruptManager.h" path="mbed/InterruptManager.h" type="1"/>
+    <File name="headers/mbed/pwmout_api.h" path="mbed/pwmout_api.h" type="1"/>
+    <File name="headers/mbed/ticker_api.h" path="mbed/ticker_api.h" type="1"/>
+    <File name="headers/mbed/buffer.h" path="mbed/buffer.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/core_cm0plus.h" path="mbed/TARGET_NUCLEO_F334R8/core_cm0plus.h" type="1"/>
+    <File name="headers/mbed/FileBase.h" path="mbed/FileBase.h" type="1"/>
+    <File name="headers/mbed/CThunk.h" path="mbed/CThunk.h" type="1"/>
+    <File name="headers/mbed/LowPowerTimeout.h" path="mbed/LowPowerTimeout.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_opamp_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_opamp_ex.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F334R8/PinNames.h" path="mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F334R8/PinNames.h" type="1"/>
+    <File name="sources/delay.h" path="delay.h" type="1"/>
+    <File name="sources/delay_effect.cpp" path="delay_effect.cpp" type="1"/>
+    <File name="headers/mbed/lp_ticker_api.h" path="mbed/lp_ticker_api.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/core_ca9.h" path="mbed/TARGET_NUCLEO_F334R8/core_ca9.h" type="1"/>
+    <File name="headers/mbed/I2CSlave.h" path="mbed/I2CSlave.h" type="1"/>
+    <File name="headers/mbed/CircularBuffer.h" path="mbed/CircularBuffer.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_crc_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_crc_ex.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_cortex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_cortex.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_rcc.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_rcc.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_nand.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_nand.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_flash_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_flash_ex.h" type="1"/>
+    <File name="headers/mbed/mbed_interface.h" path="mbed/mbed_interface.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f334x8.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f334x8.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_can.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_can.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_usart_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_usart_ex.h" type="1"/>
+    <File name="headers/mbed/can_helper.h" path="mbed/can_helper.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/system_stm32f3xx.h" path="mbed/TARGET_NUCLEO_F334R8/system_stm32f3xx.h" type="1"/>
+    <File name="headers/mbed/CallChain.h" path="mbed/CallChain.h" type="1"/>
+    <File name="headers/mbed/wait_api.h" path="mbed/wait_api.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_tim_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_tim_ex.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3" path="" type="2"/>
+    <File name="sources/notch.h" path="notch.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/core_cmInstr.h" path="mbed/TARGET_NUCLEO_F334R8/core_cmInstr.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_uart_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_uart_ex.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_i2s_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_i2s_ex.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_dma.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_dma.h" type="1"/>
+    <File name="sources/NOKIA_5110.h" path="NOKIA_5110.h" type="1"/>
+    <File name="headers/mbed/gpio_irq_api.h" path="mbed/gpio_irq_api.h" type="1"/>
+    <File name="headers/mbed/PortInOut.h" path="mbed/PortInOut.h" type="1"/>
+    <File name="sources" path="" type="2"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F334R8" path="" type="2"/>
+    <File name="headers/mbed/mbed.h" path="mbed/mbed.h" type="1"/>
+    <File name="headers/mbed/AnalogOut.h" path="mbed/AnalogOut.h" type="1"/>
+    <File name="headers/mbed/Ticker.h" path="mbed/Ticker.h" type="1"/>
+    <File name="headers/mbed/can_api.h" path="mbed/can_api.h" type="1"/>
+    <File name="sources/effects.h" path="effects.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_gpio.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_gpio.h" type="1"/>
+    <File name="headers/mbed/PortOut.h" path="mbed/PortOut.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/cmsis_nvic.h" path="mbed/TARGET_NUCLEO_F334R8/cmsis_nvic.h" type="1"/>
+    <File name="sources/main.cpp" path="main.cpp" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/core_cm3.h" path="mbed/TARGET_NUCLEO_F334R8/core_cm3.h" type="1"/>
+    <File name="headers/mbed/us_ticker_api.h" path="mbed/us_ticker_api.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F334R8/PeripheralNames.h" path="mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F334R8/PeripheralNames.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/core_cm0.h" path="mbed/TARGET_NUCLEO_F334R8/core_cm0.h" type="1"/>
+    <File name="headers/mbed/DigitalOut.h" path="mbed/DigitalOut.h" type="1"/>
+    <File name="headers/mbed/BusIn.h" path="mbed/BusIn.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/core_ca_mmu.h" path="mbed/TARGET_NUCLEO_F334R8/core_ca_mmu.h" type="1"/>
+    <File name="sources/autowah.cpp" path="autowah.cpp" type="1"/>
+    <File name="sources/notch.cpp" path="notch.cpp" type="1"/>
+    <File name="headers/mbed/analogin_api.h" path="mbed/analogin_api.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_dac.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_dac.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_tsc.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_tsc.h" type="1"/>
+    <File name="headers/mbed/Transaction.h" path="mbed/Transaction.h" type="1"/>
+    <File name="headers/mbed/rtc_time.h" path="mbed/rtc_time.h" type="1"/>
+    <File name="headers/mbed/gpio_api.h" path="mbed/gpio_api.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/PeripheralPins.h" path="mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/PeripheralPins.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_adc_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_adc_ex.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F334R8/objects.h" path="mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F334R8/objects.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_dma_ex.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_dma_ex.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F334R8/PortNames.h" path="mbed/TARGET_NUCLEO_F334R8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F334R8/PortNames.h" type="1"/>
+    <File name="sources/NOKIA_5110.cpp" path="NOKIA_5110.cpp" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_usart.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_usart.h" type="1"/>
+    <File name="headers/mbed/mbed_error.h" path="mbed/mbed_error.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_i2s.h" path="mbed/TARGET_NUCLEO_F334R8/stm32f3xx_hal_i2s.h" type="1"/>
+    <File name="headers/mbed/FileLike.h" path="mbed/FileLike.h" type="1"/>
+  </Files>
+  <Bookmarks/>
+</Project>
